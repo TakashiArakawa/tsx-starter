@@ -1,0 +1,24 @@
+{
+  "name": "my-tsx-app",
+  "version": "1.0.0",
+  "description": "Lightweight TSX + TypeScript template",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier . --write",
+    "start": "tsx src/index.ts"
+  },
+  "keywords": [
+    "typescript",
+    "tsx",
+    "template",
+    "starter"
+  ],
+  "author": "Takashi Arakawa",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "prettier": "^3.6.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
